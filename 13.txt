@@ -1,0 +1,36 @@
+//installation of scala
+
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+java --version
+
+sudo apt-get install scala
+scala --version
+--------------------------------------------------
+
+
+//funtion in scala
+
+def mul2(m: Int):Int = m*10
+mul2(2)
+op->res:Int=20
+
+
+----------------------------------------------------
+
+//simple scala code
+
+object Hello{
+    def main(args:Array[String]){
+            println("Hello World")
+            var a=2;
+            var b=3;
+            var c=a+b;
+            println("addition is "+c);
+    }
+}
+
+//for running
+
+scala Hello.scala
+scala Hello
